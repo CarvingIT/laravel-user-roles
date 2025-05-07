@@ -3,9 +3,8 @@ namespace CarvingIT\LaravelUserRoles;
 
 class LaravelUserRolesServiceProvider extends ServiceProvider{
     public function boot(){
-        $this->publishes([ __DIR__.'/database/migrations' => database_path('migrations')], 'user-roles-migrations');
-        $this->publishes([ __DIR__.'/database/seeders' => database_path('seeders')], 'user-roles-seeder');
-        $this->publishes([ __DIR__.'/app/Traits' => app_path('Traits')], 'user-roles-models');
+        $this->publishes([ __DIR__.'/database/migrations' => database_path('migrations')], 'laravel-assets');
+        $this->publishes([ __DIR__.'/database/seeders' => database_path('seeders')], 'laravel-assets');
     }
     public function register(){
     }
