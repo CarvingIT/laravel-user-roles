@@ -16,5 +16,13 @@
             "name": "Ketan Kulkarni",
             "email": "ketan@carvingit.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CarvingIT\\LaravelUserRoles\\LaravelUserRolesServiceProvider"
+            ]
+        }
+    }
+
 }
