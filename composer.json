@@ -3,7 +3,7 @@
     "description": "Composer package for user roles in a Laravel project",
     "type": "library",
     "require": {
-        "laravel/framework": "^8.0"
+        "laravel/framework": "^11.0"
     },
     "license": "MIT",
     "autoload": {
